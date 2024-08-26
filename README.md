@@ -1,40 +1,40 @@
-# Lbug-WLM
+Lbug-WLM
+Description
 
-## Descrição
+Lbug-WLM is a Python tool for merging and filtering wordlists used in offensive security and pentesting. This tool allows you to select files, set word length limits, and process the lists to create an optimized final file.
+Features
 
-Lbug-WLM é uma ferramenta Python para mesclar e filtrar listas de palavras (wordlists) utilizadas em segurança ofensiva e pentests. Esta ferramenta permite que você selecione arquivos, defina limites de tamanho de palavras e processe as listas para criar um arquivo final otimizado.
+    Merges multiple wordlists
+    Filters words based on minimum and maximum length
+    Interactive interface for selecting files and setting configurations
+    Generates an output file with the filtered words
 
-## Funcionalidades
+How to Use
 
-- Mescla múltiplas wordlists
-- Filtra palavras com base em um comprimento mínimo e máximo
-- Interface interativa para selecionar arquivos e definir configurações
-- Gera um arquivo de saída com as palavras filtradas
+    Clone the repository:
 
-## Como Usar
+    bash
 
-1. Clone o repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/lbug-wlm.git
-    cd lbug-wlm
-    ```
+git clone https://github.com/your-username/lbug-wlm.git
+cd lbug-wlm
 
-2. Instale as dependências necessárias:
-    ```bash
-    pip install -r requirements.txt
-    ```
+Install the required dependencies:
 
-3. Execute o script:
-    ```bash
+bash
+
+pip install -r requirements.txt
+
+Run the script:
+
+bash
+
     python3 src/lbug_wlm.py
-    ```
 
-## Requisitos
+Requirements
 
-- Python 3.6 ou superior
-- Bibliotecas: `colorama`, `tqdm`, `pyfiglet`, `InquirerPy`, `matplotlib`
+    Python 3.6 or higher
+    Libraries: colorama, tqdm, pyfiglet, InquirerPy, matplotlib
 
-## Licença
+License
 
-Este projeto é licenciado sob a Licença MIT - veja o arquivo LICENSE para mais detalhes.
-
+This project is licensed under the MIT License - see the LICENSE file for details.
