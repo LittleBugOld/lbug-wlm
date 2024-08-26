@@ -1,0 +1,6 @@
+colorama
+tqdm
+pyfiglet
+InquirerPy
+matplotlib
+
